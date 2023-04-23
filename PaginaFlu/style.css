@@ -1,0 +1,106 @@
+
+/*usei esse paleta de cores baseado nas cores do time, e como quero fazer uma loja teve como base o bem estar do usúario na hora da compra*/
+/*
+#006117
+#0E872A
+#0DC237
+#6B0009
+#C2101F
+*/
+body
+{
+padding: 0;
+margin: 0;
+border: 0;
+display: flex;
+justify-content: center;
+min-height: 100vh;
+background-image: url(2596512.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+button
+{
+    border: 1px solid none;
+    border-radius: 25px;
+    width: 200px;
+    height: 65px;
+    color: white;
+}
+#botaoVermelho
+{
+    background-color:#870A28 ;
+    font-size: x-large;
+}
+#botaoVerde
+{
+background-color: #00613C;
+font-size: x-large;
+}
+.botoes
+{
+display: flex;
+justify-content: space-around;
+margin-top: 50px;
+}
+
+#meuCarrinho
+{
+    background-image: url(carrinho.png);
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 50px;
+    color: black;
+    width: 100px;
+    height: 65;
+}
+
+#quadradoTransparente
+{
+    border-radius: 50px;
+    width: 1440px;
+    height: 315px;
+    background-color: #00613c5d;
+    margin-top: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.botoesComprar{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+img
+{
+    border-radius: 15px;
+}
+
+#botaoUser
+{
+
+    background-image: url(usuario.jpg);
+    background-position:  left;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: cover;
+    background-size: 50px;
+    color: black;
+    width: 150px;
+    height: 65px;
+    font-size: x-large;
+}
+
