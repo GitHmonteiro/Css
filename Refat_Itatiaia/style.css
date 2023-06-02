@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-Medium.ttf');
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    font-family:  'Roboto';
+}
+
+#logoEmpresa {
+    background-image: url('./GIF-Banner-Itatiaia-vero-ok-3.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+
+#data{
+    height: 40px;
+    background-color: #333333;
+    color: white;
+}
+
+#dia{
+margin-top: 10px;
+margin-left: 50px;
+}
+
+.menu {
+    background-image: url("./Logo-2023-para-topo-site-jf-juiz-de-fora-radio-itatiaia-jf-juiz-de-fora-ico-4-ouvir-radio-site.png");
+    background-size:373px 73px ;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 143px
+}
+
+.search{
+    height: 50px;
+    background-color: #c80000;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 30px;
+}
+
+li{
+    margin-right: 30px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+li:hover
+{
+    background-color: white;
+    color: #c80000;
+    border-radius: 5px;
+}
